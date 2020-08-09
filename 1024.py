@@ -231,7 +231,7 @@ if __name__ == "__main__":
         auto.getmatch()
         sleeptime=random.randint(1030,2048)
         au=auto.postreply()
-        if au=='今日已达上限':
+        if au=='回复成功':
             print('回复成功')
             print('休眠'+str(sleeptime)+'s...')
             sleep(sleeptime)
