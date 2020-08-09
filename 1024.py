@@ -39,7 +39,6 @@ class Autoreply:
         self.password= password
         self.secret =secret
 
-
     def login1(self):
         sleep(2)
         flag=False
@@ -63,7 +62,6 @@ class Autoreply:
         elif login.find('賬號已開啟兩步驗證')!=-1:
             Err='賬號已開啟兩步驗證'
             return Err
-
 
     def login2(self):
         sleep(2)
@@ -157,7 +155,6 @@ class Autoreply:
     #     self.encoderesult=res
     #     self.encodereply=reply_news
     #     #print(self.encodereply)
-
 
     def postreply(self):
         data={
