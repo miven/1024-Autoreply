@@ -22,7 +22,7 @@ password= 'XXXXXXXX'			     密码
 
 **后继可能添加功能：**
 
-**1.**修改为github Actions的形式
+1.修改为github Actions的形式
 
-**2.**添加邮件通知功能
+2.添加邮件通知功能
 
